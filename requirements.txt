@@ -1,0 +1,26 @@
+# Backend
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+
+# Speech-to-text (Phase 1)
+openai-whisper>=20231117
+torch>=2.1
+
+# Frontend
+streamlit>=1.33
+requests>=2.31
+
+# Coming in later phases (uncomment as you reach them)
+# youtube-transcript-api>=0.6      # Phase 2
+# yt-dlp>=2024.4                   # Phase 2
+# google-generativeai>=0.5         # Phase 3
+# langchain>=0.2                   # Phase 4
+# sentence-transformers>=2.7       # Phase 4
+# faiss-cpu>=1.8                   # Phase 4
+# opencv-python>=4.9               # Phase 5
+# sqlalchemy>=2.0                  # Phase 6
+# psycopg2-binary>=2.9             # Phase 6
